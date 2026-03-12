@@ -30,7 +30,7 @@
     -webkit-box-align: center;
     align-items: center;
     background: var(---yellow-minibanner);
-
+    
 
 
 }
@@ -39,7 +39,7 @@
   display: flex;
    justify-content: flex-end;
    align-items: center;
-
+    
 }
 
 
@@ -56,10 +56,17 @@ display: flex;
     gap: 10px;
     list-style: none;
     color: var(--button-shade2);
+    
+   
+}
+
+.navBanner ul li a{
+color: var(--color-text-black2);
+text-decoration: none;
 
 }
 
-.navBanner ul li:last-child{
+.navBanner ul li:last-child a{
 
     text-transform: uppercase;
     padding: 0.3125rem 1.25rem;
@@ -83,4 +90,33 @@ background-color: var(---yellow-minibanner);
     margin: 0;
     display: inline-flex;
       font-family: sans-serif;
+}
+
+
+
+.firstButton{
+        box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    display: flex;
+
+}
+
+
+.sfondo1{
+    background-color: var(--color-black-primary
+);
+
+}
+.legobanner{
+background-color: var(--color-black-primary);
+
+}
+
+ol {
+      display: inline-flex;
+      gap: 10px;
+    list-style-type: none;
+   
 }
